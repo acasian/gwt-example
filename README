@@ -1,0 +1,15 @@
+GWT (Google Web Toolkit) sample project.
+@Author: Alex Casian
+@Date Published: 22.09.2011
+
+In order to build and run the application, follow the instructions:
+1. Make sure you have Apache Maven installed, from command prompt go to /gwt-example folder and run "mvn clean install" command.
+2. From the same prompt run "mvn eclipse:clean eclipse:eclipse".
+3. Install eclipse and add the GWT Eclipse Plugin - http://dl.google.com/eclipse/plugin/3.6
+4. Import the project in Eclipse (Import/Existing project into workspace).
+5. Select project properties (Alt + Enter)/google, in the displayed menu configure App Engine and Web Toolkit 
+   to use this services ("Use" check-boxes and specify the runtime to be used).
+6. Once this is done, the application is ready to be deployed, select run as (or debug as) / web application. You will notice
+   that server logs are binded to console eclipse view (tab) and a special "development mode" view will appear, holding
+   the application status. Copy the provided link which points to the application and paste it in browser.
+7. At this time you should be able to see the application running in browser window.

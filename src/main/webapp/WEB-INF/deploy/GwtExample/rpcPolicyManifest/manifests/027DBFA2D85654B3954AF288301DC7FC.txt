@@ -1,0 +1,2 @@
+serviceClass: edu.alex.gwt.sample.client.GreetingService
+path: C1DD6CA31192C921324164E42D00643C.gwt.rpc
