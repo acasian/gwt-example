@@ -1,0 +1,2 @@
+git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+git cat-file -p #hash
